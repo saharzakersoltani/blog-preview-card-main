@@ -1,0 +1,27 @@
+/* below 480px */
+@media (max-width: 30em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* below 410px */
+@media (max-width: 26em) {
+  html {
+    font-size: 48%;
+  }
+  .card-section {
+    margin-top: 12rem;
+  }
+}
+
+/* below 350px */
+@media (max-width: 22em) {
+  html {
+    font-size: 40%;
+  }
+
+  .card-section {
+    margin-top: 20rem;
+  }
+}

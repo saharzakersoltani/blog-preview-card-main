@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "figtree", sans-serif;
+  font-size: 1.6rem;
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.card-section {
+  margin: 6rem 0;
+}
+
+.container {
+  width: 40rem;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2.4rem;
+  border: solid 1px hsl(0, 0%, 7%);
+  border-radius: 20px;
+  box-shadow: 1rem 1rem 0rem 0.05rem hsl(0, 0%, 7%);
+}
+
+.image {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 3.2rem;
+}
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  width: 10rem;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: 800;
+  padding: 0.8rem 0;
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-weight: 800;
+  margin: 2.4rem 0;
+}
+
+.description {
+  color: hsl(0, 0%, 42%);
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+.customer-img {
+  width: 4rem;
+}
+.customer-name {
+  font-weight: 800;
+}
+
+.attribution {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: #03030396;
+}
